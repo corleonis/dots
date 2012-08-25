@@ -1,0 +1,6 @@
+munkres.py
+setup.cfg
+pip-egg-info/munkres.egg-info/PKG-INFO
+pip-egg-info/munkres.egg-info/SOURCES.txt
+pip-egg-info/munkres.egg-info/dependency_links.txt
+pip-egg-info/munkres.egg-info/top_level.txt

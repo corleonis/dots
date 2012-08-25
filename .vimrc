@@ -1,1 +1,1 @@
-/Users/tm/.vim/janus/vim/vimrc
+imap ii <Esc>

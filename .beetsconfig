@@ -1,0 +1,4 @@
+[beets]
+directory: "/Volumes/WD STORAGE/$PortableAppsSuite/Documents/Music/"
+library: ~/.beetsdata.blb
+import_copy: no
