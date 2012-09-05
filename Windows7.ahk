@@ -16,6 +16,10 @@
 ::,,gu::git pull origin master
 ::,,g,cl::git clone git@github.com:tylermolamphy/
 
+
+; Start screensaver on Ctrl F12
+^F12:: Run, %windir%\system32\Ribbons.scr /s 
+
 ; Reload on Alt 0
 !0::
 {
