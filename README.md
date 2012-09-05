@@ -5,12 +5,12 @@ Feel free to fork the repo and tinker with it, share it, what's mine is yours.
 ## Changes:
 
 *2012.09.04.23.47.01*
-	* Uploaded some missing config files
- 	* New autohotkey file (runs on startup on all windows 7 machines.
+* Uploaded some missing config files
+* New autohotkey file (runs on startup on all windows 7 machines.
   
 
 *2012.08.25.13.46.52*
-	* Initial commit
+* Initial commit
 
 =======
 dots
