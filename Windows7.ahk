@@ -11,7 +11,9 @@
 ; Git
 ::,,ga::git add 
 ::,,gc::git commit -m 
+::,,gv::git commit{Enter}
 ::,,gp::git push origin master
+::,,gu::git pull origin master
 ::,,g,cl::git clone git@github.com:tylermolamphy/
 
 ; Reload on Alt 0
