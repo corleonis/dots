@@ -1,4 +1,4 @@
 [beets]
-directory: "/Volumes/WD STORAGE/$PortableAppsSuite/Documents/Music/"
+directory: "/Internal Media/iTunes/iTunes Media/"
 library: ~/.beetsdata.blb
 import_copy: no
