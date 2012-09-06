@@ -3,6 +3,11 @@ function mkd() {
 	mkdir -p "$@" && cd "$@"
 }
 
+# Change to a directory and list it
+function ll() {
+	cd "$@" && ls -las "$@"
+}
+
 # Use Git’s colored diff when available
 hash git &>/dev/null
 if [ $? -eq 0 ]; then
