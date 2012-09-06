@@ -4,8 +4,8 @@ function mkd() {
 }
 
 # Change to a directory and list it
-function ll() {
-	cd "$@" && ls -las "$@"
+function ce() {
+	cd "$@" && ls -las && pwd
 }
 
 # Use Git’s colored diff when available
