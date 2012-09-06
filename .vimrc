@@ -13,7 +13,6 @@ nnoremap ; :
 
 nmap <silent> ./ :nohlsearch<CR>
 set guioptions=aAce " the single greatest snippet for the MacVim GUI, tip from http://blog.danielfischer.com/2010/11/19/a-starting-guide-to-vim-from-textmate/
-set transparency=15
 set showtabline=2
 
 set hidden
