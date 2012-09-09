@@ -18,7 +18,7 @@
 
 ; Web
 ::,,d,::http://www.duckduckgo.com/?q=
-::,,r::http://www.reddit.com/r/
+::,,r/::http://www.reddit.com/r/
 
 
 ; 30 second windows screenshots
