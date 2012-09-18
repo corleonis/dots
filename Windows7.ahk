@@ -9,7 +9,7 @@
 ::zzn2::Tyler "TJ" Molamphy
 
 ; Git
-::g2g::git@github.com:tylermolamphy/
+::g2g::git@github.com:tylermolamphy
 ::,,ga::git add 
 ::,,gc::git commit -m 
 ::,,gv::git commit{Enter}
