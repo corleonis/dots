@@ -18,8 +18,8 @@
 ::,,g,cl::git clone git@github.com:tylermolamphy/
 
 ; Web
-::,,d,::http://www.duckduckgo.com/?q=
-::,,r::http://www.reddit.com/r/
+::,,d::http://www.duckduckgo.com/?q=
+::,,r::http://www.reddit.com/r
 
 
 ; 30 second windows screenshots
