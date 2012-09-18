@@ -38,7 +38,7 @@
 		Send, Screenshot
 		Send, {Enter}
 		Sleep 500
-		Send , !F4
+		Send , !{F4}
 		TrayTip, AutoHotkey, Screenshot taken
 		Sleep 2000
 		TrayTip, OffScreenshotScreenshot
@@ -47,7 +47,7 @@
 	}
 
 ; Start screensaver on Ctrl F12
-^F12:: Run, %windir%\system32\Ribbons.scr /s 
+^F12:: Run, %windir%\system32\Mystify.scr /s 
 return
 
 ; Reload on Alt 0
