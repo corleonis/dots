@@ -50,6 +50,15 @@
 ^F12:: Run, %windir%\system32\Mystify.scr /s 
 return
 
+
+; Ctrl Alt Bksp and walk away
+^!BackSpace::
+Sleep 1000
+Run, "C:\Program Files (x86)\KTimer\Launcher.exe"
+Sleep 8000
+Run, %windir%\system32\Mystify.scr /s 
+return
+
 ; Reload on Alt 0
 !0::
 {
