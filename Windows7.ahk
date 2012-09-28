@@ -1,5 +1,23 @@
 ; Tyler's default script
 
+; Broke the arrow keys on my keyboard.
+^Home::
+Send, {Up}
+return
+^End::
+Send, {Down}
+return
+^Del::
+Send, {Left}
+return
+^PgDn::
+Send, {Right}
+return
+^PgUp::
+Send, {Enter}
+return
+
+
 ; Common expansions
 ::t2t::tyler@tylermolamphy.com
 ::s2t::spam@tylermolamphy.com
