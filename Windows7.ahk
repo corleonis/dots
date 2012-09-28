@@ -66,7 +66,7 @@ return
 	}
 
 ; Start screensaver on Ctrl F12
-^F12:: Run, %windir%\system32\Mystify.scr /s 
+^F12:: Run, %windir%\system32\Ribbons.scr /s 
 return
 
 
