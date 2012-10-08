@@ -43,5 +43,9 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
 
-# Edit by Tyler 2012.08.20.10.54.27 
+# Edit by Tyler 2012.08.20.10.54.27
 alias ls='ls -lasG'
+alias nuke='rm -rfv'
+alias tarup='tar -czf'
+alias tardown='tar -xvf'
+alias tarpeek='tar -tvf'
