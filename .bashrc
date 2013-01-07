@@ -64,7 +64,7 @@ fi
 
 function _update_ps1()
 {
-   export PS1="$(~/powerline-bash.py $?)"
+   export PS1="$(~/dots/powerline-bash.py $?)"
 }
 
 export PROMPT_COMMAND="_update_ps1"
@@ -84,8 +84,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # ~/.bash_aliases, instead of adding them here directly.
 # See /usr/share/doc/bash-doc/examples in the bash-doc package.
 
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
+if [ -f ~/dots/.bash_aliases ]; then
+    . ~/dots/.bash_aliases
 fi
 
 # enable programmable completion features (you don't need to enable
@@ -99,21 +99,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-# Quick apt aliases
-alias grab='sudo apt-get install'
-alias search='apt-cache search'
-alias apt-list='dpkg -l'
-
-# Handy git aliases
-alias gac='git add $1 && git commit'
-alias clone='git clone git@github.com:$1'
-alias push='git push origin master'
-alias pull='git pull origin master'
-alias pushhtml='git push origin gh-pages'
-alias pullhtml='git pull origin gh=pages'
-
-
-# Other aliases
-alias ls='ls -las'
 
