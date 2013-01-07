@@ -1,0 +1,120 @@
+tfwconkscrot ~/ss.jpg
+gedit .conkyrc
+t .fluxbox/startup
+gedit rhythmbox
+utter
+docky
+conky
+setbg Pictures/programmer.jpg
+shutter
+docky
+thunar
+ Pictures/programmer.jpg
+shutter
+docky
+rhythmbox
+everpad
+killall docky
+gedit .fluxbox/startup
+gedit .fluxbox/keys
+gedit .conkyrc
+unetbootin
+scrot ~/ss.jpg
+gedit .conkyrc
+t .fluxbox/startup
+gedit .fluxbox/keys
+gedit .conkyrc
+unetbootin
+scrot ~/ss.jpg
+conky
+/ss.jpg
+gedit .conkyrc
+t .fluxbox/startup
+gedit .fluxbox/keys
+gedit .conkyrc
+unetbootin
+scrot ~/ss.jpg
+fbsetbg Pictures/Black
+fbsetbg Pictures/Black*
+synapse
+ncmpcpp
+virtualbox
+unetbootin
+it .conkyrc
+unetbootin
+scrot ~/ss.jpg
+fbsetbg Pictures/Black
+fbsetbg Pictures/Black*
+synapse
+ncmpcpp
+virtualbox
+leafpad
+leafpad ~/packages.txt
+uberwriter
+terminator
+gedit dots/.bashrc
+leafpad dots/.bashrc
+leafpad dots/.bash_aliases
+gksudo software-center
+gksudo zenmap
+sudo reboot
+synapse
+Pictures/Black*
+synapse
+rhythmbox
+utter
+docky
+conky
+setbg Pictures/programmer.jpg
+shutter
+docky
+thunar
+ Pictures/programmer.jpg
+shutter
+docky
+rhythmbox
+everpad
+killall docky
+gedit .fluxbox/startup
+gedit .fluxbox/keys
+gedit .conkyrc
+unetbootin
+scrot ~/ss.jpg
+gedit .conkyrc
+t .fluxbox/startup
+gedit .fluxbox/keys
+gedit .conkyrc
+unetbootin
+scrot ~/ss.jpg
+conky
+/ss.jpg
+gedit .conkyrc
+t .fluxbox/startup
+gedit .fluxbox/keys
+gedit .conkyrc
+unetbootin
+scrot ~/ss.jpg
+fbsetbg Pictures/Black
+fbsetbg Pictures/Black*
+synapse
+ncmpcpp
+virtualbox
+unetbootin
+it .conkyrc
+unetbootin
+scrot ~/ss.jpg
+fbsetbg Pictures/Black
+fbsetbg Pictures/Black*
+synapse
+ncmpcpp
+virtualbox
+leafpad
+leafpad ~/packages.txt
+uberwriter
+terminator
+gedit dots/.bashrc
+leafpad dots/.bashrc
+leafpad dots/.bash_aliases
+gksudo software-center
+gksudo zenmap
+sudo reboot
