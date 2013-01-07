@@ -1,9 +1,0 @@
-musicbrainzngs/__init__.py
-musicbrainzngs/mbxml.py
-musicbrainzngs/musicbrainz.py
-pip-egg-info/musicbrainzngs.egg-info/PKG-INFO
-pip-egg-info/musicbrainzngs.egg-info/SOURCES.txt
-pip-egg-info/musicbrainzngs.egg-info/dependency_links.txt
-pip-egg-info/musicbrainzngs.egg-info/top_level.txt
-test/test_mbxml.py
-test/test_requests.py
