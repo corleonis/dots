@@ -1,5 +1,5 @@
 #/bin/sh
-ftp -a ftp.OpenBSD.org:pub/OpenBSD.org/5.2/ports.tar.gz
+ftp -a ftp.OpenBSD.org:/pub/OpenBSD.org/5.2/ports.tar.gz
 echo - Moving files to temp...
 mv ./ports.tar.gz /tmp
 echo - Extracting...
