@@ -2,7 +2,6 @@
 echo - Installing software...
 export PKG_PATH="ftp://ftp.openbsd.org/pub/OpenBSD/5.2/packages/i386"
 pkg_add -m curl
-pkg_add -m rsync-3.0.9
 pkg_add -m git
 pkg_add -m python-2.7.3p0
 pkg_add -m py-pip
@@ -20,14 +19,30 @@ ln -sf /usr/local/bin/python2.7-2to3 /usr/local/bin/2to3
 ln -sf /usr/local/bin/python2.7-config /usr/local/bin/python-config
 ln -sf /usr/local/bin/pydoc2.7 /usr/local/bin/pydoc
 ln -sf /usr/local/bin/pip-2.7 /usr/local/bin/pip
+echo ln -sf /usr/local/bin/ruby19 /usr/local/bin/ruby
+echo ln -sf /usr/local/bin/erb19 /usr/local/bin/erb
+echo ln -sf /usr/local/bin/irb19 /usr/local/bin/irb
+echo ln -sf /usr/local/bin/rdoc19 /usr/local/bin/rdoc
+echo ln -sf /usr/local/bin/ri19 /usr/local/bin/ri
+echo ln -sf /usr/local/bin/rake19 /usr/local/bin/rake
+echo ln -sf /usr/local/bin/gem19 /usr/local/bin/
+echo ln -sf /usr/local/bin/testrb19 /usr/local/bin/testrb
+echo ln -sf /usr/local/bin/python2.7 /usr/local/bin/python
+echo ln -sf /usr/local/bin/python2.7-2to3 /usr/local/bin/2to3
+echo ln -sf /usr/local/bin/python2.7-config /usr/local/bin/python-config
+echo ln -sf /usr/local/bin/pydoc2.7 /usr/local/bin/pydoc
+echo ln -sf /usr/local/bin/pip-2.7 /usr/local/bin/pip
 echo - Cloning into server repo
-git clone http://github.com/tylermolamphy/molamphy.net
+cd /root; git clone http://github.com/tylermolamphy/molamphy.net
 echo - Requesting public branch
-cd molamphy.net/; git checkout gh-pages
+cd /root/molamphy.net/; git checkout gh-pages
 echo - Server is going down for momentary maintainence... 
 apachectl stop
 echo - Copying site to host dir
 rm -rf /var/www/htdocs/*
-rsync -avz ./molamphy.net/ /var/www/htdocs/
+cp -r /root/molamphy.net/* /var/www/htdocs
 echo - Starting server...
 apachectl start 
+echo - Serving the following files:
+ls -las /var/www/htdocs
+exit
