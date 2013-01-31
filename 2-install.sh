@@ -32,8 +32,9 @@ echo ln -sf /usr/local/bin/python2.7-2to3 /usr/local/bin/2to3
 echo ln -sf /usr/local/bin/python2.7-config /usr/local/bin/python-config
 echo ln -sf /usr/local/bin/pydoc2.7 /usr/local/bin/pydoc
 echo ln -sf /usr/local/bin/pip-2.7 /usr/local/bin/pip
+/usr/bin/clear
 echo - Cloning into server repo
-cd /root; git clone http://github.com/tylermolamphy/molamphy.net
+cd /root; git clone http://github.com/tylermolamphy/molamphy.net.git
 echo - Requesting public branch
 cd /root/molamphy.net/; git checkout gh-pages
 echo - Server is going down for momentary maintainence... 
@@ -41,6 +42,7 @@ apachectl stop
 echo - Copying site to host dir
 rm -rf /var/www/htdocs/*
 cp -r /root/molamphy.net/* /var/www/htdocs
+/usr/bin/clear
 echo - Starting server...
 apachectl start 
 echo - Serving the following files:
