@@ -1,0 +1,10 @@
+#!/bin/sh
+cp -v .gitconfig ~
+git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+cp -v .zshrc ~
+chsh -s /bin/zsh
+cp -v .vimrc ~
+cp -v .bashrc ~
+cp -v .bash_aliases ~
+echo Bootstraped.
+exit
