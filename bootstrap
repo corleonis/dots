@@ -1,8 +1,9 @@
 #!/bin/sh
+echo Must have curl and git installed. 
+read
 cp -v .gitconfig ~
-git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 cp -v .zshrc ~
-chsh -s /bin/zsh
 cp -v .vimrc ~
 cp -v .bashrc ~
 cp -v .bash_aliases ~

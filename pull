@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Pulling in changes from dots/master to ~"
+git pull origin master
+cp -v .zshrc ~
+cp -v .vimrc ~
+cp -v .bashrc ~
+cp -v .bash_aliases ~
+exit

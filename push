@@ -1,0 +1,11 @@
+#!/bin/bash
+echo "Pushing changes in ~ to dots/master"
+cp -v ~/.zshrc .
+cp -v ~/.vimrc .
+cp -v ~/.bashrc .
+cp -v ~/.bash_aliases .
+echo "Committing..."
+git add .
+git commit
+git push origin master
+exit
