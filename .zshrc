@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Import bash aliases
-source $HOME/.aliases
+source $HOME/.bash_aliases
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
