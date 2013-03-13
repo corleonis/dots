@@ -7,7 +7,7 @@ source $HOME/.bash_aliases
 ZSH_THEME="sunrise"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git)
+plugins=(git git-extras github screen sprunge textmate)
 source $ZSH/oh-my-zsh.sh
 
 
