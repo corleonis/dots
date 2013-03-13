@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Pulling in changes from dots/master to ~"
+cd ~/dots
 git pull origin master
 cp -v .zshrc ~
 cp -v .vimrc ~

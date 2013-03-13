@@ -1,5 +1,6 @@
 #!/bin/bash
 echo "Pushing changes in ~ to dots/master"
+cd ~/dots
 cp -v ~/.zshrc .
 cp -v ~/.vimrc .
 cp -v ~/.bashrc .
