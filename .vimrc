@@ -24,3 +24,7 @@ nnoremap k gk
 set listchars=tab:>.,trail:.,extends:#,nbsp:. 
 
 cmap w!! w !sudo tee % >/dev/null
+
+set wildmenu
+set wildmode=longest:full,full
+
