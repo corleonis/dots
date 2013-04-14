@@ -2,6 +2,7 @@
 echo "Pushing changes in ~ to dots/master"
 cd ~/dots
 cp -v ~/.zshrc .
+cp -v ~/.tmux.conf .
 cp -v ~/.vimrc .
 cp -v ~/.bashrc .
 cp -v ~/.bash_aliases .

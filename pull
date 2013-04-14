@@ -3,6 +3,7 @@ echo "Pulling in changes from dots/master to ~"
 cd ~/dots
 git pull origin master
 cp -v .zshrc ~
+cp -v .tmux.conf ~
 cp -v .vimrc ~
 cp -v .bashrc ~
 cp -v .bash_aliases ~
