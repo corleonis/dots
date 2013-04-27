@@ -1,6 +1,4 @@
 #!/bin/sh
-echo Must have curl and git installed. 
-read
 cp -v .gitconfig ~
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 cp -v .zshrc ~
@@ -8,5 +6,6 @@ cp -v .tmux.conf ~
 cp -v .vimrc ~
 cp -v .bashrc ~
 cp -v .bash_aliases ~
+chsh -s /bin/zsh
 echo Bootstraped.
 exit
