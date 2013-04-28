@@ -1,8 +1,8 @@
 # My aliases
 alias r='rm -rfv'
-alias ls='ls -las'
+alias l='ls -las'
 alias mvm='/Applications/MacVim.app/Contents/MacOS/MacVim'
-alias grab='sudo apt-get install -qq'
+alias grab='sudo apt-get update && sudo apt-get install -qq'
 alias goodnight='gksudo shutdown -P now'
 alias tarup='tar -czf'
 alias tardown='tar -xvf'
