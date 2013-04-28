@@ -2,7 +2,7 @@
 alias r='rm -rfv'
 alias ls='ls -las'
 alias mvm='/Applications/MacVim.app/Contents/MacOS/MacVim'
-alias grab='sudo apt-get install'
+alias grab='sudo apt-get install -qq'
 alias goodnight='gksudo shutdown -P now'
 alias tarup='tar -czf'
 alias tardown='tar -xvf'
