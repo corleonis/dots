@@ -1,6 +1,7 @@
 
 ZSH=$HOME/.oh-my-zsh
 
+
 # Import bash aliases
 source $HOME/.bash_aliases
 
