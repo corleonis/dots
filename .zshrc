@@ -1,10 +1,7 @@
 
 ZSH=$HOME/.oh-my-zsh
 
-# Stop autocorrecting these!
-alias heroku=’nocorrect heroku’
-alias vagrant=’nocorrect vagrant’
-alias hexo=’nocorrect hexo’
+unsetopt correct
 
 # Import bash aliases
 source $HOME/.bash_aliases
