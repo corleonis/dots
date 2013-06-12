@@ -1,6 +1,10 @@
 # My aliases
 alias r='rm -rfv'
 alias l='ls -las'
+alias v='vi'
+alias vg='vagrant'
+alias vup='vagrant up'
+alias vh='vagrant halt && vagrant status'
 alias mvm='/Applications/MacVim.app/Contents/MacOS/MacVim'
 alias grab='sudo apt-get update && sudo apt-get install -qq'
 alias goodnight='gksudo shutdown -P now'

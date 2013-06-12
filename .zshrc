@@ -13,4 +13,5 @@ plugins=(git git-extras github tmux sprunge textmate)
 source $ZSH/oh-my-zsh.sh
 
 
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin
+
+export PATH=/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin:/usr/local/git/bin
