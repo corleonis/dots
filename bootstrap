@@ -1,9 +1,8 @@
 #!/bin/sh
-cd '~/'
-curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+cd '~/dots' && git pull
 cp -v .zshrc ~
 cp -v .tmux.conf ~
-cp -v .vimrc ~
+cp -v .vimrc.after ~
 cp -v .bashrc ~
 cp -v .bash_aliases ~
 cp -v .gitconfig ~
