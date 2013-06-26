@@ -1,4 +1,5 @@
 #!/bin/sh
+curl -Lo- https://raw.github.com/carlhuda/janus/master/bootstrap.sh | sh
 cd '~/dots' && git pull
 cp -v .zshrc ~
 cp -v .tmux.conf ~

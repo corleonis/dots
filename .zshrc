@@ -14,4 +14,4 @@ source $ZSH/oh-my-zsh.sh
 
 
 
-export PATH=/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin:/usr/local/git/bin
+export PATH=/usr/local/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/bin:/usr/local/opt:/usr/local/git/bin
