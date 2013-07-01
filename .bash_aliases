@@ -1,6 +1,7 @@
 # My aliases
+alias cls='clear'
 alias r='rm -rfv'
-alias l='ls -las'
+alias ll='ls -las'
 alias m='more'
 alias v='vi'
 alias vg='vagrant'
